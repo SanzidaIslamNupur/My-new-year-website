@@ -1,0 +1,40 @@
+div{
+    color: #FFF;
+
+font-family: Merriweather;
+font-size: 50px;
+font-style: normal;
+font-weight: 500px;
+line-height: 95px; 
+display: flex;
+justify-content: center;
+flex-direction: column;
+ align-items: center;
+ 
+ 
+}
+.new{
+    color: #FFF;
+text-align: center;
+font-family: Merriweather;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 0px;
+}
+
+
+
+
+.image{
+    background-image:url('../image/Banner Image.png');
+    width: 1320px;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+   
+    
+    
+}
