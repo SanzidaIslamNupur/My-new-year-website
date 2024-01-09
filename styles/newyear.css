@@ -119,6 +119,13 @@ text-align: center;
     text-decoration: none;
     color: #FFFFFF;
 }
+.banner-text img{
+    text-align: right;
+    display: flex;
+    width: 140px;
+    height: 140px;
+    justify-content: right;
+}
 
 
 
