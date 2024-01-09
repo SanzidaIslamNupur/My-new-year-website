@@ -86,9 +86,40 @@ text-align: center;
     align-items: center;
 text-align: center;
 }
-.mitu{
-    display: flex;
+.container-banner{
+    width: 100%;
+    background-image:url("../image/Vectorrr.png");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
+.banner-text{
+    padding-top: 100px;
+    padding-left: 125px;
+}
+.banner-text h1{
+    font-size: 64px;
+    font-weight: 800px;
+    text-align: left;
+    line-height: 95px;
+    color: #FFFFFF;
+}
+.banner-text p{
+    width: 697px;
+    font-size:18px;
+    text-align: left;
+    line-height: 36px;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+.banner-text a{
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 25px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
 
 
 .koli{
@@ -119,20 +150,43 @@ container{
     align-items: center;
     justify-content: space-between;
 }
-.container-banner{
-    background-image:url('../image/Vectorrr.png');
-    width: 1320px;
-height: 600px;
-flex-shrink: 0;
-text-align: right;
-justify-content: space-between;
-align-items: flex;
-}
-.me{
-    color: black;
-}
+
 .park{
-    color: black;
+    padding: 100px 0px;
+    margin: auto;
+}
+.back{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+}
+.back p{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600px;
+    line-height: 36px;
+    color: #1f0105;
+}
+.back button{
+    text-align: center;
+    border-radius: 10px;
+    background-color: #F00000;
+    display: flex;
+color: #FFFFFF;
+justify-content: center;
+align-items: center;
+border: 0px;
+margin: 10px auto;
+width: 167px;
+height: 56px;
+font-size: 20px;
+font-weight: 700;
+}
+
+.banner-text h1 p{
+    text-align: center;
+    color: #f70324;
 }
 
 .a{
@@ -144,19 +198,8 @@ align-items: flex;
 .c{
     color: rgb(252, 14, 14);
 }
-.back{
-    fill: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-}
-button{
-    border-radius: 8px;
-    background: #F00;
-    display: inline-flex;
-padding: 16px 32px;
-justify-content: center;
-align-items: center;
-gap: 10px;
 
-}
+
 .moon{display: flex;
     justify-content: space-between;
     align-items: center;
