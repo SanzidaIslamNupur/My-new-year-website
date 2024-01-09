@@ -98,6 +98,7 @@ text-align: center;
 }
 .last{
     color: black;
+    text-align: left;
 }
 .banner-img{
      display: flex;
@@ -210,4 +211,39 @@ padding:15px;
 .group{
     width: 140px;
     height:140px:
+}
+.target{
+    padding: 45px 0px;
+}
+.gifts span{
+    font-size: 24px;
+    text-align: left;
+    color: #FF0000;
+    font-weight: 400;
+}
+.gifts h1{
+    font-size: 48px;
+    text-align: left;
+    color: #700211;
+    font-weight: bold;
+    padding: 15px;
+}
+.gifts p{
+    width: 896px;
+    font-size: 20px;
+    text-align: left;
+    color: #700211;
+    padding-top: 25px;
+}
+.card-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 45px;
+}
+.card img{
+    width: 424;
+    height: 450;
+    margin-bottom: 20px;
 }
