@@ -1,6 +1,6 @@
 
-div{
-    color: #FFF;
+.width{
+    color: #080000;
 
 font-family: Merriweather;
 font-size: 50px;
@@ -12,12 +12,14 @@ justify-content: center;
 flex-direction: column;
  align-items: center;
 }
-.width{
-    justify-content: space-between;
+.show{
+    text-align: center;
+    font-family: Merriweather;
+    margin-left: 10px;
 }
 
 .new{
-    color: #FFF;
+    color: #f4f1f1;
 text-align: center;
 font-family: Merriweather;
 font-size: 32px;
@@ -65,13 +67,34 @@ line-height: normal;
     color: rgb(0, 0, 0);
 
 }
+.tie{
+    text-align: center;
+    
+}
+.year{
+    width: 802.9px;
+height: 500px;
+flex-shrink: 0;
+align-items: center;
+text-align: center;
+
+}
 .space{
     justify-content: space-between;
     margin:0px;
     padding:0px;
+    align-items: center;
+text-align: center;
 }
+.mitu{
+    display: flex;
+}
+
+
 .koli{
-    color: black;
+    color: rgb(245, 2, 2);
+    text-align: left;
+    align-items:;
 }
 .last{
     color: black;
@@ -100,6 +123,9 @@ container{
     width: 1320px;
 height: 600px;
 flex-shrink: 0;
+text-align: right;
+justify-content: space-between;
+align-items: flex;
 }
 .me{
     color: black;
@@ -129,4 +155,59 @@ justify-content: center;
 align-items: center;
 gap: 10px;
 
+}
+.moon{display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0px;
+}
+.soon span{
+    font-size: 24px;
+    font-weight: 400px;
+    color: #FF0000;
+    text-align:left;
+}
+.soon h3{
+    font-size: 48px;
+    font-weight: 800px;
+    color: aqua;
+    padding: 10px 0px;
+    text-align: left;
+}
+.soon p{
+    width: 393px;
+    font-size: 20px;
+    color: #070707;
+    text-align: left;
+    
+}
+.round{
+    width: 364px;
+height: 364px;
+margin:auto
+border-radius:50%;
+border:10px solid#FF0000;
+padding:15px;
+}
+.two{
+    padding-right: 0px;
+}
+.two h3{
+    font-size: 48px;
+    text-align: left;
+    font-weight: bold;
+    color: #FF0000;
+    padding-bottom: 15px;
+
+}
+.two p{
+    width: 276px;
+    font-size: 20px;
+    color: #700211;
+    padding bottom:30px;
+
+}
+.group{
+    width: 140px;
+    height:140px:
 }
